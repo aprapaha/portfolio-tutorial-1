@@ -1,0 +1,47 @@
+/* General styles */
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+/* Image margins */
+.w3-row-padding img {margin-bottom: 12px}
+
+/* Sidebar background */
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('ashan.jpg');
+  min-height: 100%;
+}
+
+/* Main content with initial margin for desktop view */
+.w3-main {
+  margin-left: 40%; /* Default for medium/large screens */
+}
+
+/* Responsive rules for medium screens */
+@media (max-width: 1200px) {
+  .w3-main {
+    margin-left: 30%; /* Adjust for medium-sized screens */
+  }
+
+  .w3-sidebar {
+    width: 30%; /* Adjust sidebar width */
+  }
+}
+
+/* Responsive rules for smaller screens */
+@media (max-width: 768px) {
+  .w3-main {
+    margin-left: 0; /* Remove margin for small screens */
+    width: 100%;
+  }
+
+  .w3-sidebar {
+    display: none; /* Hide sidebar completely for small screens */
+  }
+
+  /* Make the full-width sidebar visible only when toggled */
+  #mySidebar {
+    width: 100%;
+  }
+}
