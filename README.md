@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my portfolio website! This project showcases my skills, experience, and accomplishments as a Software Engineer. The website serves as a digital resume and includes examples of projects I’ve worked on, both personally and professionally.
+Welcome to my portfolio website! This project showcases my skills, experience, and accomplishments as a Software Engineering Student. The website serves as a digital resume and includes examples of projects I’ve worked on, both personally and professionally.
 
 ## Purpose
 
